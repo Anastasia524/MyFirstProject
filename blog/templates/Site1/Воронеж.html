@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+{% load static %}
+<html style="font-size: 16px;" lang="ru"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Русский путешественник, Воронеж">
+    <meta name="description" content="">
+    <title>Воронеж</title>
+    <link rel="stylesheet" href="{%  static 'MyFirstProject/nicepage.css' %}" media="screen">
+<link rel="stylesheet" href="{%  static 'MyFirstProject/Воронеж.css' %}" media="screen">
+    <script class="u-script" type="text/javascript" src="{%  static 'MyFirstProject/jquery.js' %}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{%  static 'MyFirstProject/nicepage.js' %}" defer=""></script>
+    <meta name="generator" content="Nicepage 5.0.7, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Site1",
+		"logo": "images/free-icon-bear-5642306.png",
+		"sameAs": [
+				"mailto:RussianTraveller@gmail.com",
+				"https://vk.com"
+		]
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Воронеж">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+  </head>
+<div class="card">
+<div class="card-body">
+<a href="{% url 'logout' %}" class="text-danger"><p align="right">Выйти из профиля </p></a>
+</div>
+</div>
+  <body class="u-body u-xl-mode" data-lang="ru"><header class="u-align-center-sm u-align-center-xs u-clearfix u-gradient u-header u-header" id="sec-3f02"><span class="u-border-2 u-border-palette-1-light-2 u-icon u-icon-circle u-text-grey-5 u-icon-1" data-href="{% url 'login' %}" title="Авторизация"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 55 55" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f562"></use></svg><svg class="u-svg-content" viewBox="0 0 55 55" x="0px" y="0px" id="svg-f562" style="enable-background:new 0 0 55 55;"><path d="M55,27.5C55,12.337,42.663,0,27.5,0S0,12.337,0,27.5c0,8.009,3.444,15.228,8.926,20.258l-0.026,0.023l0.892,0.752
+	c0.058,0.049,0.121,0.089,0.179,0.137c0.474,0.393,0.965,0.766,1.465,1.127c0.162,0.117,0.324,0.234,0.489,0.348
+	c0.534,0.368,1.082,0.717,1.642,1.048c0.122,0.072,0.245,0.142,0.368,0.212c0.613,0.349,1.239,0.678,1.88,0.98
+	c0.047,0.022,0.095,0.042,0.142,0.064c2.089,0.971,4.319,1.684,6.651,2.105c0.061,0.011,0.122,0.022,0.184,0.033
+	c0.724,0.125,1.456,0.225,2.197,0.292c0.09,0.008,0.18,0.013,0.271,0.021C25.998,54.961,26.744,55,27.5,55
+	c0.749,0,1.488-0.039,2.222-0.098c0.093-0.008,0.186-0.013,0.279-0.021c0.735-0.067,1.461-0.164,2.178-0.287
+	c0.062-0.011,0.125-0.022,0.187-0.034c2.297-0.412,4.495-1.109,6.557-2.055c0.076-0.035,0.153-0.068,0.229-0.104
+	c0.617-0.29,1.22-0.603,1.811-0.936c0.147-0.083,0.293-0.167,0.439-0.253c0.538-0.317,1.067-0.648,1.581-1
+	c0.185-0.126,0.366-0.259,0.549-0.391c0.439-0.316,0.87-0.642,1.289-0.983c0.093-0.075,0.193-0.14,0.284-0.217l0.915-0.764
+	l-0.027-0.023C51.523,42.802,55,35.55,55,27.5z M2,27.5C2,13.439,13.439,2,27.5,2S53,13.439,53,27.5
+	c0,7.577-3.325,14.389-8.589,19.063c-0.294-0.203-0.59-0.385-0.893-0.537l-8.467-4.233c-0.76-0.38-1.232-1.144-1.232-1.993v-2.957
+	c0.196-0.242,0.403-0.516,0.617-0.817c1.096-1.548,1.975-3.27,2.616-5.123c1.267-0.602,2.085-1.864,2.085-3.289v-3.545
+	c0-0.867-0.318-1.708-0.887-2.369v-4.667c0.052-0.52,0.236-3.448-1.883-5.864C34.524,9.065,31.541,8,27.5,8
+	s-7.024,1.065-8.867,3.168c-2.119,2.416-1.935,5.346-1.883,5.864v4.667c-0.568,0.661-0.887,1.502-0.887,2.369v3.545
+	c0,1.101,0.494,2.128,1.34,2.821c0.81,3.173,2.477,5.575,3.093,6.389v2.894c0,0.816-0.445,1.566-1.162,1.958l-7.907,4.313
+	c-0.252,0.137-0.502,0.297-0.752,0.476C5.276,41.792,2,35.022,2,27.5z"></path></svg></span><a class="u-align-right u-custom-font u-font-montserrat u-hover-feature u-login u-text-grey-5 u-text-hover-custom-color-4 u-login-1">{{ user.username }} </a><a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="512" data-image-height="512">
+        <img src="../../static/MyFirstProject/images/free-icon-bear-5642306.png" class="u-logo-image u-logo-image-1">
+      </a><h2 class="u-align-center u-custom-font u-font-montserrat u-text u-text-default-lg u-text-default-md u-text-default-xl u-text-palette-1-light-3 u-text-1">Русский путешественник</h2><div class="u-hover-feature u-social-icons u-spacing-10 u-social-icons-1">
+        <a class="u-social-url" target="_blank" data-type="Email" title="Email" href="mailto:russiantraveller22@gmail.com"><span class="u-file-icon u-icon u-social-email u-social-icon u-icon-2"><img src="../../static/MyFirstProject/images/8917515.png" alt=""></span>
+        </a>
+        <a class="u-social-url" target="_blank" data-type="VK" title="VK" href="https://vk.com/public217705698"><span class="u-file-icon u-icon u-social-icon u-social-vk u-icon-3"><img src="../../static/MyFirstProject/images/216520.png" alt=""></span>
+        </a>
+        <a class="u-social-url" target="_blank" data-type="Telegram" title="Telegram" href="https://t.me/russiantraveller22"><span class="u-file-icon u-icon u-social-icon u-social-telegram u-icon-4"><img src="../../static/MyFirstProject/images/216514.png" alt=""></span>
+        </a>
+      </div><span class="u-file-icon u-icon u-text-white u-icon-5" data-href="{% url 'register' %}" title="Регистрация"><img src="../../static/MyFirstProject/images/3659689-4c127284.png" alt=""></span><nav class="u-align-center u-menu u-menu-one-level u-menu-open-right u-menu-1" data-responsive-from="MD">
+        <div class="menu-collapse u-custom-font u-font-montserrat" style="font-size: 1rem; letter-spacing: 0px; text-transform: uppercase; font-weight: 700;">
+          <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-decoration u-custom-text-hover-color u-custom-text-shadow u-custom-text-shadow-blur u-custom-text-shadow-color u-custom-text-shadow-transparency u-custom-text-shadow-x u-custom-text-shadow-y u-custom-top-bottom-menu-spacing u-nav-link" href="#" style="padding: 12px 198px; font-size: calc(1em + 24px);">
+            <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 302 302" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-8a8f"></use></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-8a8f" x="0px" y="0px" viewBox="0 0 302 302" style="enable-background:new 0 0 302 302;" xml:space="preserve" class="u-svg-content"><g><rect y="36" width="302" height="30"></rect><rect y="236" width="302" height="30"></rect><rect y="136" width="302" height="30"></rect>
+</g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+          </a>
+        </div>
+        <div class="u-custom-menu u-nav-container">
+          <ul class="u-custom-font u-font-montserrat u-nav u-spacing-2 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-active-custom-color-4 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-5 u-text-hover-white" href="{% url 'glavn' %}" style="padding: 20px 70px;"> Главная</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-4 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-5 u-text-hover-white" href="{% url 'regions' %}" style="padding: 20px 70px;">Регионы</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-4 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-5 u-text-hover-white" href="{% url 'travel' %}" style="padding: 20px 70px;">Путеводитель</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-4 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-5 u-text-hover-white" href="{% url 'news' %}" style="padding: 20px 70px;">Новости</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-4 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-5 u-text-hover-white" href="{% url 'buytyr' %}" style="padding: 20px 63px 20px 70px;">Купить тур</a>
+</li></ul>
+        </div>
+        <div class="u-custom-menu u-nav-container-collapse">
+          <div class="u-align-center u-container-style u-custom-color-8 u-inner-container-layout u-opacity u-opacity-60 u-sidenav u-sidenav-1">
+            <div class="u-inner-container-layout u-sidenav-overflow" style="padding: 0px 0px 585px;">
+              <div class="u-menu-close"></div>
+              <ul class="u-align-center u-custom-font u-font-montserrat u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'glavn' %}"> Главная</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'regions' %}">Регионы</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'travel' %}">Путеводитель</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'news' %}">Новости</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'buytyr' %}">Купить тур</a>
+</li></ul>
+            </div>
+          </div>
+          <div class="u-menu-overlay u-opacity u-opacity-70"></div>
+        </div>
+      </nav><form action="#" method="get" class="u-border-1 u-border-grey-30 u-search u-search-left u-white u-search-1">
+        <button class="u-search-button" type="submit">
+          <span class="u-file-icon u-search-icon u-spacing-10 u-search-icon-1">
+            <img src="../../static/MyFirstProject/images/1066647.png" alt="">
+          </span>
+        </button>
+        <input class="u-search-input" type="search" name="search" value="" placeholder="Search">
+      </form></header>
+    <section class="u-clearfix u-custom-color-11 u-section-1" id="sec-4354">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout" style="">
+            <div class="u-layout-row" style="">
+              <div class="u-align-center u-container-style u-layout-cell u-left-cell u-size-60 u-size-xs-60 u-white u-layout-cell-1" src="">
+                <div class="u-container-layout u-container-layout-1"><span class="u-file-icon u-icon u-icon-1"><img src="../../static/MyFirstProject/images/1527807.png" alt=""></span>
+                  <h2 class="u-custom-font u-font-montserrat u-text u-text-1">Воронеж</h2>
+                  <h4 class="u-custom-font u-font-montserrat u-text u-text-2">Коротко о городе</h4>
+                  <p class="u-custom-font u-font-montserrat u-text u-text-3"> Воронеж&nbsp;— крупный город и областной центр, который стоит на берегах Воронежского водохранилища и реки Воронеж, в 8,5 км выше того места, где она впадает в Дон. Воронеж не назовешь центром туристического паломничества. Он лежит в стороне от маршрутов Золотого кольца России и не обладает такой популярностью, как курорты Черноморского побережья Кавказа. Тем не менее старинный Воронеж имеет особый провинциальный шарм.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-custom-color-11 u-section-2" id="sec-1447">
+      <div class="u-clearfix u-sheet u-sheet-1"><!--post_details--><!--post_details_options_json--><!--{"source":"воронеж1"}--><!--/post_details_options_json--><!--blog_post-->
+        <div class="u-container-style u-expanded-width u-post-details u-post-details-1">
+          <div class="u-container-layout u-valign-top u-container-layout-1"><!--blog_post_image-->
+            <img alt="" class="u-blog-control u-expanded-width u-image u-image-default u-image-1" src="../../static/MyFirstProject/images/ce6188cd-e371-9dc4-05e8-c0c17b4c2ceb.jpg" data-image-width="900" data-image-height="600"><!--/blog_post_image-->
+          </div>
+        </div><!--/blog_post--><!--/post_details-->
+        <h3 class="u-align-center u-custom-font u-font-montserrat u-text u-text-custom-color-8 u-text-1"> Дом
+Сварога</h3>
+        <h3 class="u-align-center u-custom-font u-font-montserrat u-text u-text-grey-90 u-text-2"> “Центр славянской культуры” с названием “<b>Дом</b>&nbsp;<b>Сварога</b>” открыт в&nbsp;<b>Воронеже</b>&nbsp;по инициативе местной организации ветеранов РУБОП. Центр занимает три зала общей площадью 300 кв.м в здании городского торгового центра “Ярмарка”. Основу экспозиции "<b>Дома</b>&nbsp;<b>Сварога</b>" составляют предметы быта, демонстрирующие древнюю символику.&nbsp;
+        </h3>
+        <h6 class="u-align-center u-custom-font u-font-montserrat u-text u-text-grey-70 u-text-3">
+          <span class="u-text-custom-color-7">
+            <br>
+            <span style="font-weight: 700;" class="u-text-black">Адрес</span>
+            <br>
+            <br>
+            <a target="_blank" href="https://yandex.ru/profile/13886369794" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-custom-font u-font-montserrat u-hover-none u-none u-text-active-custom-color-4 u-text-custom-color-7 u-text-hover-custom-color-4 u-btn-1"> Донбасская ул., 23, Воронеж (этаж 4)</a>
+          </span>
+          <br>
+          <br>
+          <span class="u-text-black" style="font-weight: 700;">Телефон</span>
+          <span class="u-text-custom-color-7" style="font-weight: 700;">
+            <br>
+            <br>
+            <a href="tel:+7 (952) 955-85-90" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-hover-custom-color-4 u-text-palette-1-base u-btn-2"> +7 (952) 955-85-90</a>
+          </span>
+          <span class="u-text-black" style="font-weight: 700;">
+            <br>
+            <br>Сайт
+          </span>
+          <span style="font-weight: 700;" class="u-text-custom-color-7">
+            <br>
+            <br>
+            <a target="_blank" href="https://vk.com/club8551728" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-active-custom-color-4 u-text-hover-custom-color-4 u-text-palette-1-base u-btn-3"> vk.com/club8551728</a>
+          </span>
+          <br>
+          <br>
+          <span style="font-weight: 700;" class="u-text-black">Открыто</span>
+          <br>
+          <span style="font-weight: 700;" class="u-text-custom-color-8"></span>
+          <span class="u-text-custom-color-8" style="font-weight: 700;">
+            <br>
+            <span style="font-weight: 700;"></span>
+          </span>
+          <span class="u-text-custom-color-8" style="font-weight: 700;">пн-пт 09:00–18:00</span>
+        </h6>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-custom-color-11 u-section-3" id="sec-5bff">
+      <div class="u-clearfix u-sheet u-sheet-1"><!--post_details--><!--post_details_options_json--><!--{"source":"воронеж2"}--><!--/post_details_options_json--><!--blog_post-->
+        <div class="u-container-style u-expanded-width u-post-details u-post-details-1">
+          <div class="u-container-layout u-valign-top u-container-layout-1"><!--blog_post_image-->
+            <img alt="" class="u-blog-control u-expanded-width u-image u-image-default u-image-1" src="../../static/MyFirstProject/images/-4.jpg" data-image-width="1200" data-image-height="800"><!--/blog_post_image-->
+          </div>
+        </div><!--/blog_post--><!--/post_details-->
+        <h3 class="u-align-center u-custom-font u-font-montserrat u-text u-text-custom-color-8 u-text-1"> Корабль-музей
+Гото Предестинация</h3>
+        <h3 class="u-align-center u-custom-font u-font-montserrat u-text u-text-grey-90 u-text-2"> «<b>Гото</b>&nbsp;<b>Предестинация</b>» (или «Божье Предвидение») — первый линейный&nbsp;<b>корабль</b>&nbsp;Российского военно-морского флота. Судно было заложено 19 (29) ноября 1698 г. на верфи Воронежа. Строительством&nbsp;<b>корабля</b>&nbsp;руководил Петр Алексеевич, а в его отсутствии за строительством наблюдали два русских корабельных мастера Федосей Скляев и Лукьян Верещагин
+        </h3>
+        <h6 class="u-align-center u-custom-font u-font-montserrat u-text u-text-grey-70 u-text-3">
+          <span class="u-text-custom-color-7">
+            <br>
+            <span style="font-weight: 700;" class="u-text-black">Адрес</span>
+            <br>
+            <br>
+            <a target="_blank" href="https://yandex.ru/profile/162564425023" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-custom-font u-font-montserrat u-hover-none u-none u-text-active-custom-color-4 u-text-custom-color-7 u-text-hover-custom-color-4 u-btn-1">
+              <br>Петровская наб., 21А, Воронеж (Корабль музей)
+            </a>
+          </span>
+          <br>
+          <br>
+          <span class="u-text-black" style="font-weight: 700;">Телефон</span>
+          <span class="u-text-custom-color-7" style="font-weight: 700;">
+            <br>
+            <br>
+            <a href="tel:+7 (903) 853-61-60" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-hover-custom-color-4 u-text-palette-1-base u-btn-2"> +7 (903) 853-61-60</a>
+          </span>
+          <span class="u-text-black" style="font-weight: 700;">
+            <br>
+            <br>Сайт
+          </span>
+          <span style="font-weight: 700;" class="u-text-custom-color-7">
+            <br>
+            <br>
+            <a target="_blank" href="https://firstship.ru/" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-active-custom-color-4 u-text-hover-custom-color-4 u-text-palette-1-base u-btn-3"> firstship.ru</a>
+          </span>
+          <br>
+          <br>
+          <span style="font-weight: 700;" class="u-text-black">Открыто</span>
+          <br>
+          <span style="font-weight: 700;" class="u-text-custom-color-8"></span>
+          <span class="u-text-custom-color-8" style="font-weight: 700;">
+            <br>
+            <span style="font-weight: 700;"></span>
+          </span>
+          <span class="u-text-custom-color-8" style="font-weight: 700;">ср-вс 10:00–18:00</span>
+        </h6>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-custom-color-11 u-section-4" id="sec-3938">
+      <div class="u-clearfix u-sheet u-sheet-1"><!--post_details--><!--post_details_options_json--><!--{"source":"воронеж3"}--><!--/post_details_options_json--><!--blog_post-->
+        <div class="u-container-style u-expanded-width u-post-details u-post-details-1">
+          <div class="u-container-layout u-valign-top u-container-layout-1"><!--blog_post_image-->
+            <img alt="" class="u-blog-control u-expanded-width u-image u-image-default u-image-1" src="../../static/MyFirstProject/images/714a4bb4-480b-2657-5c78-4081b915d9c1.jpg" data-image-width="1200" data-image-height="800"><!--/blog_post_image-->
+          </div>
+        </div><!--/blog_post--><!--/post_details-->
+        <h3 class="u-align-center u-custom-font u-font-montserrat u-text u-text-custom-color-8 u-text-1"> Благовещенский
+Кафедральный собор</h3>
+        <h3 class="u-align-center u-custom-font u-font-montserrat u-text u-text-grey-90 u-text-2"><b>Благовещенский</b>&nbsp;<b>кафедральный</b>&nbsp;<b>собор</b>&nbsp;в&nbsp;<b>Воронеже</b>&nbsp;является главным духовным талисманов региона. Здание храма — это величественный монументальный архитектурный памятник города.&nbsp;<b>Собор</b>&nbsp;был возведен и освящен в честь самой первой местной церкви Благовещения Пресвятой Богородицы, символизирующей покаяние и духовное возрождение. Возведение&nbsp;<b>Благовещенского</b>&nbsp;<b>собора</b>&nbsp;началось в 1998 году, а закончено было лишь в 2009 году.&nbsp;
+        </h3>
+        <h6 class="u-align-center u-custom-font u-font-montserrat u-text u-text-grey-70 u-text-3">
+          <span class="u-text-custom-color-7">
+            <br>
+            <span style="font-weight: 700;" class="u-text-black">Адрес</span>
+            <br>
+            <br>
+            <a target="_blank" href="https://yandex.ru/profile/1372852636" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-custom-font u-font-montserrat u-hover-none u-none u-text-active-custom-color-4 u-text-custom-color-7 u-text-hover-custom-color-4 u-btn-1"> просп. Революции, 14В, Воронеж</a>
+          </span>
+          <br>
+          <br>
+          <span class="u-text-black" style="font-weight: 700;">Телефон</span>
+          <span class="u-text-custom-color-7" style="font-weight: 700;">
+            <br>
+            <br>
+            <a href="tel:+7 (900) 950-94-37" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-hover-custom-color-4 u-text-palette-1-base u-btn-2"> +7 (900) 950-94-37</a>
+          </span>
+          <span class="u-text-black" style="font-weight: 700;">
+            <br>
+            <br>Сайт
+          </span>
+          <span style="font-weight: 700;" class="u-text-custom-color-7">
+            <br>
+            <br>
+            <a target="_blank" href="https://sobor-vrn.ru/" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-active-custom-color-4 u-text-hover-custom-color-4 u-text-palette-1-base u-btn-3"> sobor-vrn.ru</a>
+          </span>
+          <br>
+          <br>
+          <span style="font-weight: 700;" class="u-text-black">Открыто</span>
+          <br>
+          <span style="font-weight: 700;" class="u-text-custom-color-8"></span>
+          <span class="u-text-custom-color-8" style="font-weight: 700;">
+            <br>
+            <span style="font-weight: 700;"></span>ежедневно 7:00–19:00
+          </span>
+        </h6>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-custom-color-11 u-section-5" id="sec-7c11">
+      <div class="u-clearfix u-sheet u-sheet-1"><!--post_details--><!--post_details_options_json--><!--{"source":"воронеж4"}--><!--/post_details_options_json--><!--blog_post-->
+        <div class="u-container-style u-expanded-width u-post-details u-post-details-1">
+          <div class="u-container-layout u-valign-top u-container-layout-1"><!--blog_post_image-->
+            <img alt="" class="u-blog-control u-expanded-width u-image u-image-default u-image-1" src="../../static/MyFirstProject/images/2f1daf04-e0af-7f93-ceef-f612643883b3.jpg" data-image-width="1200" data-image-height="800"><!--/blog_post_image-->
+          </div>
+        </div><!--/blog_post--><!--/post_details-->
+        <h3 class="u-align-center u-custom-font u-font-montserrat u-text u-text-custom-color-8 u-text-1"> Воскресенский
+храм</h3>
+        <h3 class="u-align-center u-custom-font u-font-montserrat u-text u-text-grey-90 u-text-2"><b>Храм</b>&nbsp;<b>Воскресения</b>&nbsp;Христова в&nbsp;<b>Воронеже</b>&nbsp;построен на месте более древней&nbsp;<b>церкви</b>&nbsp;во имя святых Косьмы и Дамиана. Космодемьянская&nbsp;<b>церковь</b>&nbsp;упоминается в Писцовых книгах допетровского времени. Она стояла за чертой тогдашнего города в Ямской слободе и сгорела в пожаре 1748 года.&nbsp;
+        </h3>
+        <h6 class="u-align-center u-custom-font u-font-montserrat u-text u-text-grey-70 u-text-3">
+          <span class="u-text-custom-color-7">
+            <br>
+            <span style="font-weight: 700;" class="u-text-black">Адрес</span>
+            <br>
+            <br>
+            <a target="_blank" href="https://yandex.ru/profile/1001955484" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-custom-font u-font-montserrat u-hover-none u-none u-text-active-custom-color-4 u-text-custom-color-7 u-text-hover-custom-color-4 u-btn-1"> ул. Орджоникидзе, 19Б, Воронеж (этаж 1)</a>
+          </span>
+          <br>
+          <br>
+          <span class="u-text-black" style="font-weight: 700;">Телефон</span>
+          <span class="u-text-custom-color-7" style="font-weight: 700;">
+            <br>
+            <br>
+            <a href="tel:+7 (473) 255-10-33" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-hover-custom-color-4 u-text-palette-1-base u-btn-2"> +7 (473) 255-10-33</a>
+          </span>
+          <span class="u-text-black" style="font-weight: 700;">
+            <br>
+            <br>Сайт
+          </span>
+          <span style="font-weight: 700;" class="u-text-custom-color-7">
+            <br>
+            <br>
+            <a target="_blank" href="http://voskresenskyi.prihod.ru/" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-active-custom-color-4 u-text-hover-custom-color-4 u-text-palette-1-base u-btn-3">
+              <br>voskresenskyi.prihod.ru
+            </a>
+          </span>
+          <br>
+          <br>
+          <span style="font-weight: 700;" class="u-text-black">Открыто</span>
+          <br>
+          <span style="font-weight: 700;" class="u-text-custom-color-8"></span>
+          <span class="u-text-custom-color-8" style="font-weight: 700;">
+            <br>
+            <span style="font-weight: 700;"></span>ежедневно 7:00–19:00
+          </span>
+        </h6>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-custom-color-11 u-section-6" id="sec-8258">
+      <div class="u-clearfix u-sheet u-sheet-1"><!--post_details--><!--post_details_options_json--><!--{"source":"воронеж5"}--><!--/post_details_options_json--><!--blog_post-->
+        <div class="u-container-style u-expanded-width u-post-details u-post-details-1">
+          <div class="u-container-layout u-valign-top u-container-layout-1"><!--blog_post_image-->
+            <img alt="" class="u-blog-control u-expanded-width u-image u-image-default u-image-1" src="../../static/MyFirstProject/images/cdcaa15a-42fe-ec10-bc88-856a1ddd94e0.jpg" data-image-width="800" data-image-height="603"><!--/blog_post_image-->
+          </div>
+        </div><!--/blog_post--><!--/post_details-->
+        <h3 class="u-align-center u-custom-font u-font-montserrat u-text u-text-custom-color-8 u-text-1"> Зоопитомник
+«Червленый яр»</h3>
+        <h3 class="u-align-center u-custom-font u-font-montserrat u-text u-text-grey-90 u-text-2"> Территория&nbsp;<b>Червленого</b>&nbsp;<b>яра</b>&nbsp;– это лесной сосновый массив более 23 га., граничащий с&nbsp;<b>Воронежским</b>&nbsp;водохранилищем. По территории&nbsp;<b>яра</b>&nbsp;проходит экологическая тропа «Тигули» вдоль вольеров с выставочными животными, общей протяженностью 3 км., на которой располагается несколько зон отдыха. Экспозиция «<b>Червленого</b>&nbsp;<b>Яра</b>» в основном представлена крупными копытными животными, регулярно приносящими потомство. Это семьи бизонов, яков, муфлонов, верблюдов, гуанако, лам, кабанов. В экспозиции олени, косули, лошади, ослы, нутрии, птицы и др.
+        </h3>
+        <h6 class="u-align-center u-custom-font u-font-montserrat u-text u-text-grey-70 u-text-3">
+          <span class="u-text-custom-color-7">
+            <br>
+            <span style="font-weight: 700;" class="u-text-black">Адрес</span>
+            <br>
+            <a target="_blank" href="https://yandex.ru/profile/1413985328" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-custom-font u-font-montserrat u-hover-none u-none u-text-active-custom-color-4 u-text-custom-color-7 u-text-hover-custom-color-4 u-btn-1">
+              <br>Смородиновая ул., 2Д, Воронеж
+            </a>
+          </span>
+          <br>
+          <br>
+          <span class="u-text-black" style="font-weight: 700;">Телефон</span>
+          <span class="u-text-custom-color-7" style="font-weight: 700;">
+            <br>
+            <br>
+            <a href="tel:+7 (473) 239-49-41" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-hover-custom-color-4 u-text-palette-1-base u-btn-2"> +7 (473) 239-49-41</a>
+          </span>
+          <span class="u-text-black" style="font-weight: 700;">
+            <br>
+            <br>Сайт
+          </span>
+          <span style="font-weight: 700;" class="u-text-custom-color-7">
+            <br>
+            <a target="_blank" href="https://zooparkvrn.ru/chervlenyj-yar" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-active-custom-color-4 u-text-hover-custom-color-4 u-text-palette-1-base u-btn-3">
+              <br>zooparkvrn.ru/chervlenyj-yar
+            </a>
+          </span>
+          <br>
+          <br>
+          <span style="font-weight: 700;" class="u-text-black">Открыто</span>
+          <br>
+          <span style="font-weight: 700;" class="u-text-custom-color-8"></span>
+          <span class="u-text-custom-color-8" style="font-weight: 700;">
+            <br>
+            <span style="font-weight: 700;"></span>
+          </span>
+          <span class="u-text-custom-color-8" style="font-weight: 700;">пт-вс 10:00–17:00</span>
+        </h6>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-custom-color-11 u-section-7" id="sec-a09d">
+      <div class="u-clearfix u-sheet u-sheet-1"><!--post_details--><!--post_details_options_json--><!--{"source":"воронеж6"}--><!--/post_details_options_json--><!--blog_post-->
+        <div class="u-container-style u-expanded-width u-post-details u-post-details-1">
+          <div class="u-container-layout u-valign-top u-container-layout-1"><!--blog_post_image-->
+            <img alt="" class="u-blog-control u-expanded-width u-image u-image-default u-image-1" src="../../static/MyFirstProject/images/c4163454-d473-ed72-a807-2382471f6b8b....jpg" data-image-width="2000" data-image-height="1334"><!--/blog_post_image-->
+          </div>
+        </div><!--/blog_post--><!--/post_details-->
+        <h3 class="u-align-center u-custom-font u-font-montserrat u-text u-text-custom-color-8 u-text-1"> Ботанический
+Сад им. Б. А. Келлера</h3>
+        <h3 class="u-align-center u-custom-font u-font-montserrat u-text u-text-grey-90 u-text-2"><b>Ботанический</b>&nbsp;<b>сад</b>&nbsp;открыт в&nbsp;<b>Воронеже</b>&nbsp;в 1916г. На момент открытия&nbsp;<b>его</b>&nbsp;площадь составляла 0,25га (сегодня больше 17га). В 1931г&nbsp;<b>Ботаническому</b>&nbsp;<b>саду</b>&nbsp;присваивают&nbsp;<b>имя</b>&nbsp;выдающегося русского советского ученого Бориса Александровича&nbsp;<b>Келлера</b>&nbsp;(1874-1945). В годы войны&nbsp;<b>сад</b>&nbsp;сильно пострадал, но уже в 1944г возобновил свою работу. С 1991 года&nbsp;<b>Ботанический</b>&nbsp;<b>сад</b>&nbsp;– структурное подразделение&nbsp;<b>Воронежского</b>&nbsp;ГАУ.
+        </h3>
+        <h6 class="u-align-center u-custom-font u-font-montserrat u-text u-text-grey-70 u-text-3">
+          <span class="u-text-custom-color-7">
+            <br>
+            <span style="font-weight: 700;" class="u-text-black">Адрес</span>
+            <br>
+            <br>
+            <a target="_blank" href="https://yandex.ru/profile/169564521683" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-custom-font u-font-montserrat u-hover-none u-none u-text-active-custom-color-4 u-text-custom-color-7 u-text-hover-custom-color-4 u-btn-1"> Воронеж, улица Тимирязева</a>
+          </span>
+          <br>
+          <br>
+          <span class="u-text-black" style="font-weight: 700;">Телефон</span>
+          <span class="u-text-custom-color-7" style="font-weight: 700;">
+            <br>
+            <br>
+            <a href="tel:+7 999 656-15-56" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-hover-custom-color-4 u-text-palette-1-base u-btn-2"> +7 999 656-15-56</a>
+          </span>
+          <span class="u-text-black" style="font-weight: 700;">
+            <br>
+            <br>Сайт
+          </span>
+          <span style="font-weight: 700;" class="u-text-custom-color-7">
+            <br>
+            <br>
+            <a target="_blank" href="http://prev.vsau.ru/управление_по_организации_научной_деятельности/ботанический_сад_имени_Б.А._Келлера" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-active-custom-color-4 u-text-hover-custom-color-4 u-text-palette-1-base u-btn-3"> prev.vsau.ru</a>
+          </span>
+          <br>
+          <br>
+          <span style="font-weight: 700;" class="u-text-black">Открыто</span>
+          <br>
+          <span style="font-weight: 700;" class="u-text-custom-color-8"></span>
+          <span class="u-text-custom-color-8" style="font-weight: 700;">
+            <br>
+            <span style="font-weight: 700;"></span>
+          </span>
+          <span class="u-text-custom-color-8" style="font-weight: 700;">пн-пт 08:00–17:00, перерыв 12:00–12:45</span>
+        </h6>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-custom-color-11 u-section-8" id="sec-d8ec">
+      <div class="u-clearfix u-sheet u-sheet-1"><!--post_details--><!--post_details_options_json--><!--{"source":"воронеж7"}--><!--/post_details_options_json--><!--blog_post-->
+        <div class="u-container-style u-expanded-width u-post-details u-post-details-1">
+          <div class="u-container-layout u-valign-top u-container-layout-1"><!--blog_post_image-->
+            <img alt="" class="u-blog-control u-expanded-width u-image u-image-default u-image-1" src="../../static/MyFirstProject/images/4e38a61b-898b-5b6a-6b03-7f7c9f0c6615...jpg" data-image-width="700" data-image-height="525"><!--/blog_post_image-->
+          </div>
+        </div><!--/blog_post--><!--/post_details-->
+        <h3 class="u-align-center u-custom-font u-font-montserrat u-text u-text-custom-color-8 u-text-1"> Воронежский
+Государственный Природный Биосферный Заповедник имени В. М. Пескова</h3>
+        <h3 class="u-align-center u-custom-font u-font-montserrat u-text u-text-grey-90 u-text-2"><b>Воронежский</b>&nbsp;<b>заповедник</b>&nbsp;— одна из самых старых охраняемых&nbsp;<b>природных</b>&nbsp;территорий Российской Федерации.&nbsp;<b>Заповедник</b>&nbsp;был создан в 1923 году специально для охраны бобров, вид которых был практически истреблен на европейской территории России.<br>
+          <br><b>Заповедник</b>&nbsp;в&nbsp;<b>Воронеже</b>&nbsp;занимает территорию от реки&nbsp;<b>Воронеж</b>&nbsp;до реки Усмань. Здесь в лесах и реках, лугах и полянах, озерах и болотах живут самые обычные и очень редкие обитатели заповедного мира.<br>
+        </h3>
+        <h6 class="u-align-center u-custom-font u-font-montserrat u-text u-text-grey-70 u-text-3">
+          <span class="u-text-custom-color-7">
+            <br>
+            <span style="font-weight: 700;" class="u-text-black">Адрес</span>
+            <br>
+            <br>
+            <a target="_blank" href="https://yandex.ru/profile/1027535002" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-custom-font u-font-montserrat u-hover-none u-none u-text-active-custom-color-4 u-text-custom-color-7 u-text-hover-custom-color-4 u-btn-1"> 1/1, территория Госзаповедник центральная усадьба, Воронеж</a>
+          </span>
+          <br>
+          <br>
+          <span class="u-text-black" style="font-weight: 700;">Телефон</span>
+          <span class="u-text-custom-color-7" style="font-weight: 700;">
+            <br>
+            <br>
+            <a href="tel:+7 (473) 259-45-60" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-hover-custom-color-4 u-text-palette-1-base u-btn-2"> +7 (473) 259-45-60</a>
+          </span>
+          <span class="u-text-black" style="font-weight: 700;">
+            <br>
+            <br>Сайт
+          </span>
+          <span style="font-weight: 700;" class="u-text-custom-color-7">
+            <br>
+            <a target="_blank" href="https://zapovednik-vrn.ru/" class="Link Link_theme_normal u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-active-custom-color-4 u-text-hover-custom-color-4 u-text-palette-1-base u-btn-3">
+              <br>zapovednik-vrn.ru
+            </a>
+          </span>
+          <br>
+          <br>
+          <span style="font-weight: 700;" class="u-text-black">Открыто</span>
+          <br>
+          <span style="font-weight: 700;" class="u-text-custom-color-8"></span>
+          <span class="u-text-custom-color-8" style="font-weight: 700;">
+            <br>
+            <span style="font-weight: 700;"></span>
+          </span>
+          <span class="u-text-custom-color-8" style="font-weight: 700;">вт-вс 09:00–17:00</span>
+        </h6>
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center u-clearfix u-custom-color-8 u-footer u-footer" id="sec-75f0"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-align-right u-small-text u-text u-text-variant u-text-1">© Русский путешественник 2022&nbsp; &nbsp; Все права защищены.</p>
+        <a href="https://nicepage.com/website-design" class="u-active-none u-align-center u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-btn-rectangle u-button-style u-hover-none u-none u-radius-0 u-top-left-radius-0 u-top-right-radius-0 u-btn-1"><span class="u-icon u-text-palette-3-base"><svg class="u-svg-content" viewBox="0 0 405.333 405.333" x="0px" y="0px" style="width: 1em; height: 1em;"><path d="M373.333,266.88c-25.003,0-49.493-3.904-72.704-11.563c-11.328-3.904-24.192-0.896-31.637,6.699l-46.016,34.752    c-52.8-28.181-86.592-61.952-114.389-114.368l33.813-44.928c8.512-8.512,11.563-20.971,7.915-32.64    C142.592,81.472,138.667,56.96,138.667,32c0-17.643-14.357-32-32-32H32C14.357,0,0,14.357,0,32    c0,205.845,167.488,373.333,373.333,373.333c17.643,0,32-14.357,32-32V298.88C405.333,281.237,390.976,266.88,373.333,266.88z"></path></svg><img></span>&nbsp;+8 (964) 905-0427
+        </a>
+        <a href="mailto:info@site.com" class="u-active-none u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-btn-rectangle u-button-style u-hover-none u-none u-radius-0 u-text-white u-top-left-radius-0 u-top-right-radius-0 u-btn-2"><span class="u-icon u-text-palette-3-base"><svg class="u-svg-content" viewBox="0 0 24 16" x="0px" y="0px" style="width: 1em; height: 1em;"><path fill="currentColor" d="M23.8,1.1l-7.3,6.8l7.3,6.8c0.1-0.2,0.2-0.6,0.2-0.9V2C24,1.7,23.9,1.4,23.8,1.1z M21.8,0H2.2
+	c-0.4,0-0.7,0.1-1,0.2L10.6,9c0.8,0.8,2.2,0.8,3,0l9.2-8.7C22.6,0.1,22.2,0,21.8,0z M0.2,1.1C0.1,1.4,0,1.7,0,2V14
+	c0,0.3,0.1,0.6,0.2,0.9l7.3-6.8L0.2,1.1z M15.5,9l-1.1,1c-1.3,1.2-3.6,1.2-4.9,0l-1-1l-7.3,6.8c0.2,0.1,0.6,0.2,1,0.2H22
+	c0.4,0,0.6-0.1,1-0.2L15.5,9z"></path></svg><img></span>&nbsp;​russiantraveller22@gmail.com
+        </a>
+      </div></footer>
+
+</body></html>
